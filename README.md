@@ -6,7 +6,7 @@ Custom CSS, settings, etc for Joplin - https://github.com/laurent22/joplin
 ## Get the old color scheme for standard editor (pre 2.2.2)
 Some changes were added to Joplin in the past month that changed the style (colors, fonts, etc) of the Markdown editor ([#5174 Codemirror theme update](https://github.com/laurent22/joplin/pull/5174) // [#5314 Improved Markdown editor code styling](https://github.com/laurent22/joplin/pull/5314) // [Added margin for readability](https://discourse.joplinapp.org/t/please-read-this-if-you-are-wondering-why-theres-now-a-margin-on-the-note-text/19585), among other things).
 
-In this attempt, I wrote some custom CSS put in the file [**userchrome.css**]() that outclass the regular CSS, for the Light theme. This file is usually located in `C:\Users\XXX\.config\joplin-desktop\` on Windows, but you also can access it throught Joplin settings.  
+In this attempt, I wrote some custom CSS put in the file [**userchrome.css**](https://github.com/4wk-/joplin-stuff/blob/main/userchrome.css) that outclass the regular CSS, for the Light theme. This file is usually located in `C:\Users\XXX\.config\joplin-desktop\` on Windows, but you also can access it throught Joplin settings.  
 You also need to update those settings, in **Options > Appearance**:  
 ```
 Editor font size = 12
