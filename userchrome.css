@@ -1,0 +1,64 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/* headings */
+div.CodeMirror span.cm-header-1,
+div.CodeMirror span.cm-header-2,
+div.CodeMirror span.cm-header-3,
+div.CodeMirror span.cm-header-4,
+div.CodeMirror span.cm-header-5,
+div.CodeMirror span.cm-header-6 {
+  color: blue !important;
+}
+
+/* lists */
+div.CodeMirror span.cm-variable-2 {
+  color: #05a !important;
+}
+div.CodeMirror span.cm-variable-3 {
+  color: #085 !important;
+}
+div.CodeMirror span.cm-keyword {
+  color: #708 !important;
+}
+
+/* links */
+div.CodeMirror span.cm-link-text {
+  color: black !important;
+}
+
+/* url from links (and attachments, which are urls as well */
+div.CodeMirror span.cm-url {
+  color: #a11 !important;
+  opacity: 1 !important;
+}
+
+/* blockcode */
+div.CodeMirror div.cm-jn-code-block-background {
+  background-color: transparent !important;
+  color: #a50 !important;
+}
+
+/* inline code */
+div.CodeMirror span.cm-comment.cm-jn-inline-code:not(.cm-search-marker):not(.cm-fat-cursor-mark):not(.cm-search-marker-selected):not(.CodeMirror-selectedtext) {
+  background-color: transparent !important;
+  border: none !important;
+  color: #a50 !important;
+}
+
+/* comments */
+div.CodeMirror span.cm-comment {
+  color: #a50 !important;
+}
+
+/* horizontal rule */
+div.CodeMirror span.cm-hr {
+  color: #999 !important;
+}
+
+/* first occurence of search */
+.cm-search-marker-selected {
+  background: #F7D26E !important;
+  color: black !important;
+  border: 1px dotted black;
+}
+
